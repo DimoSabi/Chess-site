@@ -16,3 +16,33 @@ img {
 a {
     text-decoration: none;
 }
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.gallery p {
+    border: 1px solid black;
+    padding: 10px;
+}
